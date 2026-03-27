@@ -5,9 +5,9 @@
 
 ## Overview
 
-This project investigates the relationship between epigenetic modifications and gene expression changes in colorectal cancer (CRC), using publicly available GEO microarray datasets. Three datasets were analysed to identify differentially expressed genes (DEGs) associated with chromosomal instability, early-onset CRC, and epigenetic regulation.
+In 2024, I was bored. I was also interested to learning some bioinformatics and epigenetics. This project investigates the relationship between epigenetic modifications and gene expression changes in colorectal cancer (CRC), using publicly available GEO microarray datasets. Three datasets were analysed to identify differentially expressed genes (DEGs) associated with chromosomal instability, early-onset CRC, and epigenetic regulation.
 
-The goal is to identify candidate biomarkers relevant to CRC diagnosis, prognosis, and targeted therapy.
+The goal was to identify candidate biomarkers relevant to CRC diagnosis, prognosis, and targeted therapy.
 
 ---
 
@@ -68,7 +68,7 @@ CRC-GEO-Analysis/
 
 ## Key Findings
 
-- **GSE30540**: 104 DEGs between CIN-high and CIN-low (34 up, 70 down); nominal p<0.05, |log2FC|>1. Exploratory — underpowered for FDR correction (n=10 CIN-low).
+- **GSE30540**: 104 DEGs between CIN-high and CIN-low (34 up, 70 down); nominal p<0.05, |log2FC|>1. Exploratory:underpowered for FDR correction (n=10 CIN-low).
 - **GSE4107**: 2,421 DEGs in CRC mucosa vs healthy controls (1,866 up, 555 down); FDR-corrected (BH adj.p<0.05, |log2FC|>1).
 - **GSE32323**: 3,433 DEGs in matched tumour vs normal tissue (1,755 up, 1,678 down); paired design blocking by patient, FDR-corrected. 60 epigenetically silenced gene candidates identified from 5-aza-dC cell line sub-experiment.
 
